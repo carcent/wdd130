@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Madimi+One&family=Permanent+Marker&display=swap);
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px
+}
+
+:root {
+    --primary-color:#81D6E3;
+    --secondary-color:#680E4B;
+    --accent1-color:#61E786;
+    --accent2-color:#4472CA;
+
+    --heading-font: 'Permanent Marker', serif;
+    --paragraph-font: "Madimi One", sans-serif;
+
+    --nav-background-color:#C3EA86;
+    --nav-link-color:#680E4B;
+    --nav-hover-link-color:var(--primary-color);
+    --nav-hover-background-color:#61E786;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--accent2-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-link-color);
+    background-color: var(--nav-hover-background-color);
+}
