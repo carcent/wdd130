@@ -1,38 +1,47 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 nav {
-    background-color: steelblue;
+    background-color: rgb(194, 176, 170);
     padding: 10px;
 }
-
+/* This is a comment */
 nav a {
-    color: white;
+    color: rgb(76, 18, 184);
     display: block;
-    padding: 20px;
+    padding: 2px;
 }
 
 h1{
-    color:steelblue;
+    color:rgb(238, 41, 41);
 }
 
 main img{
+    
     width: 150px;
     height: auto;
-    border:1px solid steelblue;
+    border:1px solid #8E80DB;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+
+    float:right;
 }
 
 p { padding: 0;}
 
 aside{
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);/*1*/ 
-    padding: 1rem;
-    background-color: #418f92;
-    color:#d0deeb;
     text-align: center;
 }
+aside h2{
+    position:relative;
+    top:47px;
+    left: 20;
 
+}
 aside img{
     width: 200px;
     height: auto;
@@ -42,4 +51,14 @@ footer{
     margin-top: 15px;
     border-top: 1px solid #c7d82a;
     text-align: center
+}
+
+/* Class Selector*/
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: rgb(194, 176, 170);
+    color: #e61f29;
 }
