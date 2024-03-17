@@ -20,12 +20,6 @@
 
 }
 
-.happy {
-    position: relative;
-    padding: 1px;
-    size: 50px;
-    float: right; 
-}
  
 header {
     padding: 20px;
@@ -45,20 +39,24 @@ nav {
 
 heading h1, article{
     position:absolute;
-    top: 120px;
+    top: 110px;
     left: 10px;
     z-index: 1;
 
 }
 
 article img{
+    
+    width: 80px;
+    height: auto;
+    border:1px solid #e55812ff;
+    padding: 2px;
+    box-shadow: 0 0 30px #996888ff;
+    position:relative;
     float:right;
 }
 
-.image {
-    display: block;
-    margin-bottom:20px;
-}
+
 
 h1, h2{
     color:#28112bff;
@@ -78,12 +76,6 @@ setion{
     width: 20rem;
     text-align: center;
 }
-section h2{
-    position:center;
-    top:47px;
-    left: 20px;
-
-}
 
 img{
 
@@ -92,8 +84,6 @@ img{
     border:1px solid #e55812ff;
     padding: 2px;
     box-shadow: 0 0 30px #996888ff;
-    
-
 }
 
 section img{
@@ -103,6 +93,11 @@ section img{
     padding: 1px;
     box-shadow: 0 0 30px #996888ff;
 
+}
+
+.image {
+    display: block;
+    margin-bottom:20px;
 }
 
 footer{
@@ -128,9 +123,6 @@ footer nav a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
 }
-
-
-
 
 .hero img {
     display:block;
