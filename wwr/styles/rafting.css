@@ -1,0 +1,141 @@
+
+/*corregir las imagenes y los textos. tambien los tamaños*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap')
+:root {
+    --background: #fbd1a2ff;
+    --font: #4b5842ff;
+    --secondary: #28112bff;
+    --lines: #e55812ff;
+    --text: #996888ff;
+}
+
+
+
+
+
+* {
+    margin:2px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.happy {
+    position: relative;
+    padding: 1px;
+    size: 50px;
+    float: right; 
+}
+ 
+header {
+    padding: 20px;
+    background-color: #fbd1a2ff;
+}
+nav a:link, nav a:visited {
+    color: #996888ff;
+    display: block;
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+nav {
+    background-color: #fbd1a2ff;
+    padding: 10px;
+}
+
+heading h1, article{
+    position:absolute;
+    top: 120px;
+    left: 10px;
+    z-index: 1;
+
+}
+
+article img{
+    float:right;
+}
+
+.image {
+    display: block;
+    margin-bottom:20px;
+}
+
+h1, h2{
+    color:#28112bff;
+    text-align: center;
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+      
+
+
+
+
+p { padding: 0;}
+
+setion{
+    width: 20rem;
+    text-align: center;
+}
+section h2{
+    position:center;
+    top:47px;
+    left: 20px;
+
+}
+
+img{
+
+    width: 90px;
+    height: auto;
+    border:1px solid #e55812ff;
+    padding: 2px;
+    box-shadow: 0 0 30px #996888ff;
+    
+
+}
+
+section img{
+    width: 150px;
+    height: auto;
+    border:1px solid #e55812ff;
+    padding: 1px;
+    box-shadow: 0 0 30px #996888ff;
+
+}
+
+footer{
+    margin-top: 150px;
+    border-top: 1px solid #e55812ff;
+    text-align: center
+    
+}
+footer img {
+    width: 20px;
+    height: auto;
+    align-items: center;
+    margin-left: 15px;
+}
+
+footer nav a {
+    text-decoration: none;
+    align-items: center;
+}
+
+.hero h1 {
+    color:#996888ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+
+
+
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
+    float: center;
+    margin-right: 20px;
+}
