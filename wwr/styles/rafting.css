@@ -10,6 +10,8 @@
 }
 
 * {
+    display: grid;
+    grid-template-columns: 1fr;
     margin:2px;
     padding: 0;
     box-sizing: border-box;
@@ -17,6 +19,7 @@
 
  
 header {
+    width: 100%;
     padding: 20px;
     background-color: #fbd1a2ff;
 
@@ -89,15 +92,16 @@ section img{
 
 }
 
-
 .image {
-    display: flex;
-    margin-bottom:20px;
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+    align-items: right;
 }
 
 
 footer{
-    
+    display: grid;
+    grid-template-columns: 1 fr, 1fr;
     margin-top: 150px;
     border-top: 1px solid #e55812ff;
     text-align: center
@@ -111,13 +115,20 @@ footer img {
 }
 
 footer nav a {
+
     text-decoration: none;
     align-items: center;
 }
-.hero{
+
+.sociallinks{
     display: grid;
-    grid-template-columns: auto repeat(3,1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat( 3, 1fr);
+    align-items: center;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 
 }
 .hero h1 {
@@ -125,32 +136,32 @@ footer nav a {
     color:rgb(26, 23, 25);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position:absolute;
-    top: 180px;
+    top: 220px;
     left: 15rem;
 }
 
 .hero main img {
 
-    display:block;
     width: 100%;
     height: auto;
     float: center;
-    margin-right: 20px;
 }
 article img{
     display: block;
     width: 150px;
     height: auto;
     position:absolute;
-    top: 200px;
-    left: 50px;
+    top: 250px;
+    right: 50px;
 }
 
 .hero article p{
-    display: flex;
-    top: 300px;
-    left: 25rem;
     background-color: rgb(255, 145, 0);
+    display: flex;
     justify-content: center;
+    position:absolute;
+    float:center;
+    top:300px;
+    left:50px;
     
 }
