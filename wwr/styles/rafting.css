@@ -1,5 +1,4 @@
 
-/*corregir las imagenes y los textos. tambien los tamaños*/
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap')
 :root {
     --background: #fbd1a2ff;
@@ -15,51 +14,48 @@
     margin:2px;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: #fbd1a2ff; */
 }
-
- 
+body{
+    background-color: #fbd1a2ff;
+}
 header {
     width: 100%;
-    padding: 20px;
-    background-color: #fbd1a2ff;
-
+    height:100px;
+    padding: 10px;
     margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 3fr repeat(5,2fr);
-    
-    justify-content: center;
-    align-content: end;
+    display:flex;
+
+    /* display: grid;
+    grid-template-columns: 3fr 1fr; */
+    justify-content: space-between;
+    background-color: rgb(247, 195, 136);
 
     }
+.header_nav{
+    display:flex;
+
+}
 
 nav a {
     display: flex;
-    justify-content: space-around;
-    color: #996888ff;
-    border: 1px #4b5842ff;
-
-    padding: 2px;
+    justify-content: center;
+    vertical-align: center;
+    color: #132b3a;
+    border: none;
+    margin: 10px;
+    padding: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    align-items: baseline;
-}
-
-nav {
-    background-color: #fbd1a2ff;
-    padding: 10px;
-}
-
-article img{
+    background-color: rgb(247, 195, 136);
     
-    width: 80px;
-    height: auto;
-    border:1px solid #e55812ff;
-    padding: 2px;
-    box-shadow: 0 0 30px #996888ff;
-    position:relative;
-    float:right;
 }
 
-h1, h2{
+.hero_img{
+    width:100%;
+    height:auto;
+}
+
+h2{
     color:#28112bff;
     text-align: center;
     font-family: "Bungee Shade", sans-serif;
@@ -83,6 +79,41 @@ header img{
     box-shadow: 0 0 30px #996888ff;
 }
 
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.hero h1 {
+    position: absolute;
+    color:rgb(19, 14, 17);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+article img{
+    display: block;
+    width: 150px;
+    height: auto;
+    position:absolute;
+    top: 300px;
+    right: 50px;
+}
+
+.hero article p {
+   /* background-color: rgb(70, 58, 43);*/
+    color: white;
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    justify-content: left;
+    position:absolute;
+    top:260px;
+    left:50px;
+    font-size: 25px;
+}
 section img{
     width: 200px;
     height: auto;
@@ -94,8 +125,12 @@ section img{
 
 .image {
     display: grid;
-    grid-template-columns: repeat( 5, 1fr);
+    grid-template-columns: repeat( 10, 1fr);
     align-items: right;
+}
+
+.caption {
+    display: block;
 }
 
 
@@ -117,13 +152,11 @@ footer img {
 footer nav a {
 
     text-decoration: none;
-    align-items: center;
 }
 
 .sociallinks{
-    display: grid;
-    grid-template-columns: repeat( 3, 1fr);
-    align-items: center;
+    display: flex;
+    justify-content: right;
 }
 .hero{
     display: flex;
@@ -132,20 +165,13 @@ footer nav a {
 
 }
 .hero h1 {
-
-    color:rgb(26, 23, 25);
+    position: absolute;
+    color:rgb(19, 14, 17);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position:absolute;
-    top: 220px;
-    left: 15rem;
+
 }
 
-.hero main img {
 
-    width: 100%;
-    height: auto;
-    float: center;
-}
 article img{
     display: block;
     width: 150px;
@@ -155,13 +181,14 @@ article img{
     right: 50px;
 }
 
-.hero article p{
-    background-color: rgb(255, 145, 0);
-    display: flex;
-    justify-content: center;
+.hero article p {
+    background-color: rgb(70, 58, 43);
+    color: white;
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    justify-content: left;
     position:absolute;
-    float:center;
     top:300px;
-    left:50px;
-    
+    left:50px;   
 }
