@@ -125,8 +125,9 @@ section img{
 
 .image {
     display: grid;
-    grid-template-columns: repeat( 10, 1fr);
-    align-items: right;
+    grid-template-columns: repeat( 5, 1fr);
+    align-items: center;
+    gap: 20px;
 }
 
 .caption {
