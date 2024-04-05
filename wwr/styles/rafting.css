@@ -1,13 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap')
 :root {
     --background: #fbd1a2ff;
     --font: #4b5842ff;
     --secondary: #28112bff;
     --lines: #e55812ff;
     --text: #996888ff;
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap')
 }
-
 * {
     display: grid;
     grid-template-columns: 1fr;
@@ -124,6 +123,7 @@ section img{
 }
 
 .image {
+
     display: grid;
     grid-template-columns: repeat( 5, 1fr);
     align-items: center;
