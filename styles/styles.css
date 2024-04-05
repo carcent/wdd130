@@ -1,4 +1,4 @@
-* {
+*{
     margin:0.5;
     padding: 0;
     box-sizing: border-box;
@@ -67,7 +67,7 @@ aside{
     width: 20rem;
     text-align: center;
 }
-aside h2{
+h2{
     position:relative;
     top:47px;
     left: 20;
@@ -93,4 +93,6 @@ footer{
     padding: 1rem;
     background-color: rgb(194, 176, 170);
     color: #e61f29;
+    position: relative;
+    text-align: center;
 }
