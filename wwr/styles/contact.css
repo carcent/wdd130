@@ -10,8 +10,9 @@
 * {
     display: grid;
     grid-template-columns: 1fr;
-    margin:2px;
-    padding: 0;
+    margin:1px;
+    box-sizing: border-box;
+
 
 }
 body{
